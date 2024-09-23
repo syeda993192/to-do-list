@@ -15,5 +15,19 @@
     <ul id="taskList"></ul>
   </div>
 
+  <script>
+    function addTask() {
+      var taskInput = document.getElementById('taskInput');
+      var taskList = document.getElementById('taskList');
+
+      var li = document.createElement('li');
+      li.textContent = taskInput.value;
+
+      if (taskInput.value.trim() === '') {
+        return alert("To-do can't be empty!");
+      }
+    }
+  </script> 
+
 </body>
 </html>
