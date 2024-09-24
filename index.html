@@ -26,6 +26,13 @@
       if (taskInput.value.trim() === '') {
         return alert("To-do can't be empty!");
       }
+
+      var removeButton = document.createElement('button');
+      removeButton.textContent = 'Remove';
+      removeButton.className = 'remove-btn';
+      removeButton.onclick = function () {
+        taskList.removeChild(li);
+      };
     }
   </script> 
 
