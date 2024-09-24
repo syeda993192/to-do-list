@@ -29,3 +29,18 @@ body {
     align-items: center;
     margin-bottom: 20px;
   }
+
+  button {
+    padding: 10px 20px;
+    background-color: rgb(172, 42, 144);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+
+  button:hover {
+    background-color: rgb(140, 35, 115);
+  }
