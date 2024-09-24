@@ -60,3 +60,16 @@ body {
     align-items: center;
     border: 1px solid #ddd;
   }
+
+  input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    border: 2px solid rgb(172, 42, 144);
+    border-radius: 5px;
+  }
+
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
