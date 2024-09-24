@@ -73,3 +73,7 @@ body {
     text-decoration: line-through;
     color: #888;
   }
+
+  .remove-btn:hover {
+    background-color: darkred;
+  }
